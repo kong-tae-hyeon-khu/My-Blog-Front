@@ -1,0 +1,15 @@
+/* 버튼 스타일 */
+.Button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* 버튼 스타일을 마우스 호버 시 변경 */
+.Button:hover {
+    background-color: #0056b3;
+}
