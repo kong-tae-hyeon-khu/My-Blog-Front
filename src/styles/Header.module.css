@@ -1,0 +1,38 @@
+/* Header.module.css */
+
+/* 헤더 컨테이너 스타일 */
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+/* 헤더 타이틀 스타일 */
+.headerTitle {
+    text-align: left;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Header.module.css */
+
+/* 헤더 네비게이션 스타일 */
+.navigation {
+    margin-top: 10px;
+}
+
+/* 네비게이션 링크 공통 스타일 */
+.navLink {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* 네비게이션 링크에 마우스 호버 시 스타일 변경 */
+.navLink:hover {
+    text-decoration: underline;
+}

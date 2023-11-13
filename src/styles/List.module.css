@@ -1,0 +1,26 @@
+/* PostList.module.css */
+
+.post {
+    display: flex;
+    flex-direction: row; /* 가로 방향으로 정렬 */
+    justify-content: space-between; /* 왼쪽과 오른쪽으로 정렬 */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 흐린 선 추가 */
+}
+
+.post h3 {
+    margin: 0; /* 제목의 상단/하단 여백 제거 */
+}
+
+.post .title {
+    flex: 1; /* title이 남은 공간을 모두 차지하도록 설정 */
+    text-align: left; /* title을 왼쪽 정렬로 설정 */
+}
+
+.post .content {
+    flex: 1; /* content가 남은 공간을 모두 차지하도록 설정 */
+    text-align: right; /* content를 오른쪽 정렬로 설정 */
+}

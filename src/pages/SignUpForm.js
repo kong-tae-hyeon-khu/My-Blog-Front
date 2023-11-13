@@ -1,6 +1,8 @@
 import React, {useState} from "react";
-import styles from "../styles/SignUpForm.module.css"
+import styles from "../styles/SignForm.module.css"
 import Button from "../components/Button";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const SignUpForm = () => {
 
@@ -57,12 +59,14 @@ const SignUpForm = () => {
 
     return (
         <div>
+            <Header></Header>
             <form onSubmit={onSubmitHandler} className={styles.formContainer}>
                 <input type="email" name="email" placeholder="Email" onChange={onChangeHandler} className={styles.inputField}></input>
                 <input type="text" name="userName" placeholder="UserName" onChange={onChangeHandler} className={styles.inputField}></input>
                 <input type="password" name="password" placeholder="Password" onChange={onChangeHandler} className={styles.inputField}></input>
                 <Button onClick={onSubmitHandler}>Button</Button>
             </form>
+            <Footer></Footer>
         </div>
     )
 }
